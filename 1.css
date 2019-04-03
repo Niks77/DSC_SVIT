@@ -45,3 +45,15 @@ body,html {
     background-color: #555;
     color: white;
   }
+  .arrow {
+    background-image: url(arrowpic.png);
+    background-position: center bottom;
+    z-index: 2;
+  }
+  .details{
+    background-color: white;
+    height:1000px;
+  }
+  .logo{
+    float: left;
+  }
