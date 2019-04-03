@@ -13,8 +13,7 @@ body,html {
     display: flex;
     position: fixed;
     top:0;
-    margin-left: 20px;
-    width:98%;
+    width:100%;
     
 }
 .bold {
@@ -23,10 +22,11 @@ body,html {
     text-decoration: none;
     color: #000;
     width: 200px;
-    padding-top:8px; 
+    padding-top:8px;
+    margin-left: 20px; 
 }
 
-  ul {
+  .nav > ul {
     list-style-type: none;
     margin: 0;
     padding-left: 20px;
@@ -51,9 +51,14 @@ body,html {
     z-index: 2;
   }
   .details{
+    margin-left:100px;
     background-color: white;
     height:1000px;
   }
   .logo{
+    padding-right:50px;
     float: left;
+  }
+  .ifram {
+    padding-right: 10px; 
   }
