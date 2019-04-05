@@ -4,8 +4,13 @@ window.onscroll = function() {
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("navbar").style.backgroundColor="white";
+    document.getElementById("navbar").classList.add("white-nav");
   } else {
-    document.getElementById("navbar").style.backgroundColor="rgba(0,0,0,0)";
+    document.getElementById("navbar").classList.remove("white-nav");
   }
 }
+
+function menu(){
+  document.getElementById("togg").classList.toggle("show");
+}
+    
